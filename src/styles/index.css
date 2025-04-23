@@ -9,3 +9,10 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.card {
+ margin-top: 2%;
+ margin-bottom: 2%;
+ margin-left:auto;
+ margin-right: auto;
+
+}

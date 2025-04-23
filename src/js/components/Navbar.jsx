@@ -2,8 +2,24 @@ import React from "react";
 
 const Navbar = () => {
     return (
+ 
+/*<ul className="navbar justify-content-end navbar-expand-lg  bg-dark">
+  <li className="nav-item">
+    <a className="nav-link style.color: white active" aria-current="page" href="#">Active</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link " href="#">Link</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Link</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link disabled" aria-disabled="true">Disabled</a>
+  </li>
+</ul>*/
 
-        <nav className="navbar navbar-expand-lg  navbar-dark bg-dark">
+
+        <nav className="navbar navbar-expand-lg  justify-content-end  navbar-dark bg-dark">
             <div className="container-fluid">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -30,3 +46,5 @@ const Navbar = () => {
 
 
 export default Navbar;
+
+/*    */
